@@ -1,0 +1,20 @@
+{
+  "name": "log-viewer-semef-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-ws": "^3.0.0",
+    "lowdb": "^1.0.0",
+    "simple-ssh": "^1.0.0",
+    "uuid": "^3.2.1"
+  }
+}

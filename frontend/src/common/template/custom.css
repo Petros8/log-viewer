@@ -1,0 +1,43 @@
+.main-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.td-actions {
+    width: 150px;
+}
+
+.box-log{
+    height: 330px;
+    max-height: 330px; 
+    max-width: 100%;
+    overflow: auto;
+}
+
+.m-t-25 {
+    margin-top: 25px!important;
+}
+
+.p-r-25 {
+    padding-right: 25px!important;
+}
+
+.p-r-30 {
+    padding-right: 30px!important;
+}
+
+.posRelative {
+    position: relative!important;
+}
+
+.btn-box-tool{
+    position: absolute!important;
+    top: 7px!important;
+    right: 0!important;
+    margin-right: 5px!important;
+}
