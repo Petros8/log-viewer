@@ -112,7 +112,7 @@ export const deleteLogFile = (appId, tabId) => {
 
 export const fetchAppLines = (app, payload) => {
   return (dispatch) => {
-      axios.get('api/fetch-lines', { params: { app, qtdLines: payload.qtdLines } }).then(
+      axios.get('api/fetch-lines', { params: { app: app.id, qtdLines: payload.qtdLines } }).then(
         (response) => {
           let blob = new Blob([response.data], { type: 'text/plain' })
           let filename = response.headers['content-disposition'].split('filename=')[1].replace(/\"/g, '')
